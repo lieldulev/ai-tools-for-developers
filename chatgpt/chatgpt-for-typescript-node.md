@@ -1,6 +1,18 @@
 # Generating Code Snippets in TypeScript and Node.js with Chat GPT
 March 2023 / [@lieldulev](https://github.com/lieldulev "Liel Dulev") and [ChatGPT](https://chat.openai.com/chat)
 
+* [What is going on?](#what-is-going-on)
+* [Overview of Chat GPT and its Capabilities](#overview-of-chat-gpt-and-its-capabilities)
+* [How to use Chat GPT for writing Typescript / NodeJS?](#how-to-use-chat-gpt-for-writing-typescript--nodejs)
+* [Examples of Chat GPT Prompts and Responses](#examples-of-chat-gpt-prompts-and-responses)
+  * [Websockets and Redis](#websockets-and-redis)
+  * [Circuit Breaker](#circuit-breaker)
+  * [NATS Consumers](#nats-consumers)
+  * [K8s Definitions using Terraform](#k8s-definitions-using-terraform)
+* [Integrating and Modifying Generated Code Snippets](#integrating-and-modifying-generated-code-snippets)
+* [Potential for Improving Development Productivity and Code Quality](#potential-for-improving-development-productivity-and-code-quality)
+* [Conclusion](#conclusion)
+
 ## What is going on?
 In recent years, artificial intelligence has made significant progress in various fields, including natural language processing. OpenAI's GPT-3 model is a prime example of this progress, capable of generating human-like language in various contexts, including code. Chat GPT is a large language model based on the GPT-3.5 architecture, trained to understand and generate code snippets in TypeScript and Node.js for various use cases, such as circuit breaker, NATS consumers, and K8s definitions using Terraform.
 
@@ -236,7 +248,7 @@ Integrating the generated code snippets into TypeScript and Node.js projects is 
 
 One thing to note is that the generated code snippets are not guaranteed to be optimal or the best fit for every scenario. Therefore, developers should review and test the generated code snippets thoroughly before using them in production.
 
-Potential for Improving Development Productivity and Code Quality
+## Potential for Improving Development Productivity and Code Quality
 Chat GPT has the potential to improve development productivity and code quality significantly. By generating code snippets, developers can save time and effort on syntax and semantics, enabling them to focus on the business logic of their applications. Additionally, the generated code snippets can adhere to best practices, reducing the likelihood of errors and security vulnerabilities.
 
 However, there are some limitations to Chat GPT that developers should be aware of. The model is not perfect and can generate code snippets that are not optimal or the best fit for specific scenarios. Additionally, the model can generate code snippets that may not adhere to company or team coding standards, requiring additional modification.
